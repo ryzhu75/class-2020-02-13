@@ -28,3 +28,11 @@ x <- read_excel("class_enrollment_summary_by_term_2.13.20.xlsx",
 x
 ```
 
+```{r reprex_guest_speaker}
+library(tidyverse)
+tibble(mtcars)
+
+library(praise)
+template <- "${EXCLAMATION} - your reprex is ${adjective}!"
+praise (template)
+```
