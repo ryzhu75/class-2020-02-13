@@ -23,7 +23,7 @@ x <- read_excel("class_enrollment_summary_by_term_2.13.20.xlsx",
     slice (1:5) %>%
     select(course_title, course_name, instructor_full_name, total) %>%
     gt() %>%
-      tab_header("Top Five Government Classes")
+      tab_header("Top Five Government Classes") 
 
 x
 ```
